@@ -1,0 +1,69 @@
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    margin-top: 30px;
+    height: 50%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+.input-box {
+    height: 35px;
+    font-size: 17px;
+    padding: 5px;
+    text-align: center;
+    margin: 3px;
+    border: 1px solid;
+}
+
+.email-mobile-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 7px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.modified-box {
+    height: 40px;
+    padding: 5px;
+    width: 44%;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.para {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+}
+.dot {
+    height: 15px;
+  width: 15px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.unorder-list {
+    list-style-type: none;
+    width: 60%;
+    height: 100%;
+}
+
+.delete-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+}
